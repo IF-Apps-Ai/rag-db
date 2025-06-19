@@ -1,0 +1,16 @@
+# Core RAG dependencies
+openai>=1.0.0
+pymongo>=4.0.0
+langchain>=0.1.0
+langchain-openai>=0.1.0
+langchain-chroma>=0.1.0
+python-dotenv>=1.0.0
+chromadb>=0.4.0
+
+# PDF processing requirements
+PyPDF2>=3.0.0
+PyMuPDF>=1.23.0
+langchain-text-splitters>=0.0.1
+
+# PDF creation (optional)
+reportlab>=4.0.0

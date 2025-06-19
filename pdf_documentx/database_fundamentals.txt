@@ -1,0 +1,71 @@
+Database Fundamentals
+=====================
+
+Database adalah kumpulan data yang terorganisir dan dapat diakses secara elektronik.
+
+Jenis-jenis Database:
+
+1. Relational Database (SQL)
+- Menggunakan tabel dengan rows dan columns
+- ACID properties (Atomicity, Consistency, Isolation, Durability)
+- Contoh: MySQL, PostgreSQL, SQLite, Oracle
+
+2. NoSQL Database
+- Document-based: MongoDB, CouchDB
+- Key-value: Redis, DynamoDB
+- Column-family: Cassandra, HBase
+- Graph: Neo4j, Amazon Neptune
+
+Database Operations (CRUD):
+- Create: Menambahkan data baru
+- Read: Membaca atau mengambil data
+- Update: Mengubah data yang sudah ada
+- Delete: Menghapus data
+
+SQL (Structured Query Language):
+- DDL (Data Definition Language): CREATE, ALTER, DROP
+- DML (Data Manipulation Language): INSERT, UPDATE, DELETE
+- DQL (Data Query Language): SELECT
+- DCL (Data Control Language): GRANT, REVOKE
+
+Basic SQL Commands:
+CREATE TABLE users (
+    id INT PRIMARY KEY,
+    name VARCHAR(100),
+    email VARCHAR(100) UNIQUE
+);
+
+INSERT INTO users (id, name, email) VALUES (1, 'John', 'john@email.com');
+SELECT * FROM users WHERE name = 'John';
+UPDATE users SET email = 'newemail@email.com' WHERE id = 1;
+DELETE FROM users WHERE id = 1;
+
+Normalization:
+- 1NF (First Normal Form): Eliminate duplicate columns
+- 2NF (Second Normal Form): Meet 1NF + remove partial dependencies
+- 3NF (Third Normal Form): Meet 2NF + remove transitive dependencies
+- BCNF (Boyce-Codd Normal Form): Stricter version of 3NF
+
+Database Design Principles:
+1. Identify entities and relationships
+2. Define primary and foreign keys
+3. Normalize tables to reduce redundancy
+4. Create indexes for better performance
+5. Implement constraints for data integrity
+
+Popular Database Management Systems:
+- MySQL: Open-source relational database
+- PostgreSQL: Advanced open-source database
+- MongoDB: Document-oriented NoSQL database
+- Redis: In-memory key-value store
+- SQLite: Lightweight embedded database
+- Oracle: Enterprise-grade database
+- Microsoft SQL Server: Microsoft's database solution
+
+Database Performance Optimization:
+- Indexing strategies
+- Query optimization
+- Partitioning
+- Caching
+- Connection pooling
+- Database normalization/denormalization

@@ -1,0 +1,64 @@
+Python Programming Guide
+========================
+
+Python adalah bahasa pemrograman tingkat tinggi yang mudah dipelajari dan powerful.
+Python mendukung multiple programming paradigms, termasuk procedural, object-oriented, dan functional programming.
+
+Fitur-fitur utama Python:
+- Syntax yang sederhana dan mudah dibaca
+- Interpreted language
+- Dynamic typing
+- Extensive standard library
+- Large ecosystem of third-party packages
+
+Python sangat populer untuk:
+- Web development (Django, Flask)
+- Data science dan machine learning
+- Automation dan scripting
+- Desktop applications
+- Scientific computing
+
+Contoh kode Python sederhana:
+print("Hello, World!")
+
+for i in range(5):
+    print(f"Number: {i}")
+
+Python memiliki philosophy "The Zen of Python" yang menekankan pada code readability dan simplicity.
+Beautiful is better than ugly.
+Explicit is better than implicit.
+Simple is better than complex.
+Complex is better than complicated.
+
+Python juga mendukung berbagai paradigma pemrograman:
+1. Procedural Programming
+2. Object-Oriented Programming
+3. Functional Programming
+
+Untuk memulai dengan Python, Anda perlu menginstall Python dari python.org dan memilih text editor atau IDE favorit seperti VSCode, PyCharm, atau Sublime Text.
+
+Python Package Manager (pip):
+pip install package_name
+pip install -r requirements.txt
+pip list
+pip freeze > requirements.txt
+
+Virtual Environment:
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+venv\Scripts\activate   # Windows
+
+Python Data Types:
+- Numeric: int, float, complex
+- Sequence: str, list, tuple
+- Mapping: dict
+- Set: set, frozenset
+- Boolean: bool
+- Binary: bytes, bytearray
+
+Control Structures:
+- if/elif/else statements
+- for loops
+- while loops
+- try/except/finally
+- with statements
