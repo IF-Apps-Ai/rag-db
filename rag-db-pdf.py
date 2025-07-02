@@ -371,7 +371,7 @@ def ingest_pdf_documents(folder_path: str = PDF_FOLDER):
             # Prepare document for MongoDB
             mongo_doc = {
                 "doc_id": f"{filename}_chunk_{doc['chunk_id']}",
-                "filename": filename,
+                "filename": filename,\
                 "file_hash": file_hash,
                 "text": doc["text"],
                 "chunk_id": doc["chunk_id"],

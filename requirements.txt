@@ -14,3 +14,13 @@ langchain-text-splitters>=0.0.1
 
 # PDF creation (optional)
 reportlab>=4.0.0
+
+# FastAPI dependencies
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+python-multipart>=0.0.6
+
+# FastAPI dependencies
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+python-multipart>=0.0.6
